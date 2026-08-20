@@ -1,2 +1,2 @@
-This is a Git hello word project
-OWNER git
+This is a Git hello word project.
+OWNER Git
