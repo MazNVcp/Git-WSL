@@ -1,0 +1,2 @@
+f3 cached and git rm
+after untracked
