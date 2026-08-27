@@ -1,0 +1,6 @@
+*.Iog
+info.txt
+build/
+module/
+lib/
+log/
