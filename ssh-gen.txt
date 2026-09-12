@@ -1,0 +1,53 @@
+ssh remote & generate psswd
+linux = remote - check ssh stutas & create new dhcp connection 
+	(Vitrual box)login root mode
+	sudo apt install openssh-server -y
+	systemctl enable --now shh
+	sudo systemctl status ssh
+	cd /etc/netplan
+	nano 00-installer-config.yaml
+	add on below set-name :
+ 
+	enp0s8:
+		dhcp4: no
+		addresses:
+			-	192.168.xxx.x/24
+
+	netplan apply - update the create network setting
+	ip a - check the ip address
+	shutdown now
+	network DHCP Server Disable Server & Adapter Configure Adapter Manually
+	Settings /Network /Adapter 2 /Attached to Host-only Adapter
+	Change to Other phyiscal pc & type ipconfig or ip address check the 192.168.xxx.x/24 hv connection or not
+	Key ssh (target OS)ex:linux os name is 123
+	ssh 123@192.168.xxx.x - Enter
+	if show refuse neet to install sudo apt install openssh-server -y in linux os(target pc)
+	after enter show r u sure you want to continue connecting(yes/no/[fingerprint])? - yes
+	login in the target os psswd
+	success login
+	exit = window os back
+	
+Generate ssh = linux os
+	cd ~/.ssh
+	ls -al = show the connection
+	ssh-keygen -t ed25519 -C "example@example.com"	
+	(empty for no passphrase): = press Enter - create without psswd/key in the psswd
+	Generate psswd in SHA256 Algorithm policy done.
+	Key ls -al = show the keys(public & private)
+	id_ed25519 is private key
+	id_ed25519.pub is public key
+	nano id_ed25519.pub show the key can be Share or Upload to public(Caution didn't Share the private key in public)
+
+Download or link ssh
+	Copy the ssh link in any opensourse(Example github)
+	Key git clone git@github.com:MazNVcp/Git-WSL.git = before enter cofirm which folder you need to receive the sourse
+	sucess cloning - yes /go to traget which you receive the sourse folder and check the sourse 
+	key git remote -v = show git config --global --add safe.directory /mnt/c/Users/ADMIN/Desktop/githubtest/git-class //(your folder location)//
+	copy git config --global --add safe.directory /mnt/c/Users/ADMIN/Desktop/githubtest/git-class //(your folder location)// and key in
+	^^^is because the security concern 
+	key again git remote -v = show (fetch) & (push) =connecte success.
+	
+-----------END-------------
+	
+	
+

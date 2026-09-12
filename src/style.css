@@ -1,0 +1,23 @@
+.topbanner{
+    margin:0;
+    height: 20vh;
+    background-color: aqua;
+    text-align:center;
+    align-items: center;
+}
+.siteTitle{
+    padding:50%;
+    width:fit-content;
+    margin:auto;
+    color: bisque;
+}
+.mian{
+    margin:0px;
+    background-color: deepskyblue;
+    height: 80vh;
+}
+.main>*{
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    }
