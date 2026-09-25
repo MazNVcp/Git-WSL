@@ -23,6 +23,9 @@ linux = remote - check ssh stutas & create new dhcp connection
 	ssh 123@192.168.xxx.x - Enter
 	if show refuse neet to install sudo apt install openssh-server -y in linux os(target pc)
 	after enter show r u sure you want to continue connecting(yes/no/[fingerprint])? - yes
+
+Remote & Connect by techno ssh
+	ssh targetOS@192.168.XXX.XX	
 	login in the target os psswd
 	success login
 	exit = window os back
@@ -46,6 +49,9 @@ Download or link ssh
 	copy git config --global --add safe.directory /mnt/c/Users/ADMIN/Desktop/githubtest/git-class //(your folder location)// and key in
 	^^^is because the security concern 
 	key again git remote -v = show (fetch) & (push) =connecte success.
+
+Setup ssh connection in git mode
+	git remote set-url origin git@github.com:targetUsername/TargetProject.git
 	
 -----------END-------------
 	

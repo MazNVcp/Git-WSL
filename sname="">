@@ -1,0 +1,71 @@
+[33mcommit b3c65c13061326383c3f33477d5fb908bddd0670[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: gitclass <gitclass@hotmail.com>
+Date:   Sat Sep 12 14:16:47 2026 +0800
+
+    initialized the page template
+
+[33mcommit 184c39ff2c2e082770535dc977d81d337be43c1d[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: gitclass <gitclass@hotmail.com>
+Date:   Thu Aug 27 21:13:02 2026 +0800
+
+    new f3 and git ignore updates
+
+[33mcommit 3178521640f0f3b9460d76fd7dd8abc093f110f3[m
+Author: gitclass <gitclass@hotmail.com>
+Date:   Thu Aug 27 21:06:21 2026 +0800
+
+    re tracking the f3.txt
+
+[33mcommit 25405e926459e7f1e18cc92a8176ac18651d3667[m
+Author: gitclass <gitclass@hotmail.com>
+Date:   Thu Aug 27 21:02:55 2026 +0800
+
+    cached removed f3.txt to untrack
+
+[33mcommit e7955c52e30336c581434bbf4d248883794500b5[m
+Author: gitclass <gitclass@hotmail.com>
+Date:   Thu Aug 27 21:00:39 2026 +0800
+
+    f3.txt file is added
+
+[33mcommit 21505ca13de3934bb716626bcba4869dcd389484[m
+Author: gitclass <gitclass@hotmail.com>
+Date:   Thu Aug 27 20:56:14 2026 +0800
+
+    f1 is git removed(untracked)
+
+[33mcommit a62445110c8327d703eb9721f3ce23e633eb2ab7[m
+Author: gitclass <gitclass@hotmail.com>
+Date:   Thu Aug 27 20:48:58 2026 +0800
+
+    f1 is deleted
+
+[33mcommit 81561ab02adc41a8ef23d926fa697f128a236da4[m
+Author: gitclass <gitclass@hotmail.com>
+Date:   Thu Aug 27 20:40:03 2026 +0800
+
+    sample files for remove testing are added
+
+[33mcommit f965668271732e3479387ec777e4deccb395690e[m
+Author: gitclass <gitclass@hotmail.com>
+Date:   Thu Aug 27 20:20:26 2026 +0800
+
+    added the gitignore
+
+[33mcommit 038499f30e16cd414ec8933b065abf723c8cbd7b[m
+Author: gitclass <gitclass@hotmail.com>
+Date:   Thu Aug 20 21:24:09 2026 +0800
+
+    README owner GIT Change
+
+[33mcommit 19dd69ee84a60960d640c0c7c71bc4d264a28ca0[m
+Author: gitclass <gitclass@hotmail.com>
+Date:   Thu Aug 20 21:11:46 2026 +0800
+
+    readme modified: owner is added
+
+[33mcommit d8642ea3b4d280f08c4f36ac3ac6231e8e60bb49[m
+Author: gitclass <gitclass@hotmail.com>
+Date:   Thu Aug 20 21:00:27 2026 +0800
+
+    Initialize the Project

@@ -31,4 +31,20 @@
     -Line-changing mechanism : 
        -echo   : Automatically wraps to the nxt line by default.
        -printf : Does not wrap automatically,must manually add "\n"
-  
+17.mkdir = create a folder(mkdir my_folder = create a folder file name my_folder)
+18.git push origin main = update the edit project to github
+19.init = Used to turn the current folder into a new Git version control repository. 
+20.ps aux|grep git = List all system processes.(git)
+	ps - ProcessStatus：Used to view the status of processes currently running on the system.
+	 a - Display processes for all users.
+	 u - In a detailed format
+	 x - Also list background processes that do not have a controlling terminal.
+ grep git : Filter out lines related to Git.
+	   - From this long list of processes, filter and display only the lines containing the letters "git".
+	 | - (Pipe symbol): Passes the output of the `ps aux` command on the left directly as input to the command on the right.
+21.htop = System process monitoring tool (equivalent to the "Task Manager" in Linux)   
+22.mkdir -p my_project.git
+	(-p) : Parents (Recursive/Parent Directory)
+	   1 : Automatically create missing parent directories: If the path contains multiple levels of non-existent folders, it will automatically create all the missing parent folders along the way without throwing an error.
+	   2 : Ignore existing errors: By default, `mkdir` throws an error if the target directory already exists; however, adding the `-p` flag causes it to ignore this—resulting in no error and leaving the existing content unaffected.
+	   
