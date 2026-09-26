@@ -17,7 +17,7 @@
 13.git commit = 'snapshot' or 'archive' command
    -git commit -m 'commit message' include the commit message directly in the command line and save
    -git commit -am automatically stage modifications or deletions of tracked files and commit the changes.
-   -git cimmit -merge the change into the previous commit without creating a new coomit in the history.
+   -git commit -merge the change into the previous commit without creating a new coomit in the history.
 14.rm = system-level deletion:only the physical files on the hard drive or in the workspace were deleted.
    -git rm =Git-level deletion:A one-step process.Deletes the physical file and simultaneously place the
      'deletionaction'directly into the staging area,ready for a commit.

@@ -2,7 +2,7 @@ ssh remote & generate psswd
 linux = remote - check ssh stutas & create new dhcp connection 
 	(Vitrual box)login root mode
 	sudo apt install openssh-server -y
-	systemctl enable --now shh
+	systemctl enable --now ssh
 	sudo systemctl status ssh
 	cd /etc/netplan
 	nano 00-installer-config.yaml
@@ -33,7 +33,7 @@ Remote & Connect by techno ssh
 Generate ssh = linux os
 	cd ~/.ssh
 	ls -al = show the connection
-	ssh-keygen -t ed25519 -C "example@example.com"	
+	ssh-keygen -t ed25519 -C "example@example.com" = Generate Secure Hash Algorithm 256-bit(SHA256)	
 	(empty for no passphrase): = press Enter - create without psswd/key in the psswd
 	Generate psswd in SHA256 Algorithm policy done.
 	Key ls -al = show the keys(public & private)
