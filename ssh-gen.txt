@@ -52,6 +52,12 @@ Download or link ssh
 
 Setup ssh connection in git mode
 	git remote set-url origin git@github.com:targetUsername/TargetProject.git
+		- Modify existing connection
+		- Update or replace the address bound to an existing origin.
+
+	git remote add origin git@gitserver:username/project.git
+		- Establishing the connection for the first time
+		- Create a new remote connection named 'origin' in the local repository.
 	
 -----------END-------------
 	
