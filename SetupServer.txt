@@ -1,0 +1,10 @@
+Setting up the Server
+	
+	After SSH Connect
+	Connect to Target PC
+	cd my_project(Target Floder)
+	git init
+	got add .
+	git commit -m "Initial commit"(noted)
+	git clone target@192.168.xxx.x:~/git/my_project.git
+		= clone the target floder to Own PC from Target PC   

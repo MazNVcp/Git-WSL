@@ -47,4 +47,4 @@
 	(-p) : Parents (Recursive/Parent Directory)
 	   1 : Automatically create missing parent directories: If the path contains multiple levels of non-existent folders, it will automatically create all the missing parent folders along the way without throwing an error.
 	   2 : Ignore existing errors: By default, `mkdir` throws an error if the target directory already exists; however, adding the `-p` flag causes it to ignore this—resulting in no error and leaving the existing content unaffected.
-	   
+23.git mv = change txt name	   
